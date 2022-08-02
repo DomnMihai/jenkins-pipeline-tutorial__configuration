@@ -15,7 +15,7 @@ ip address
 
 # Change bash color
 - open **~/.bashrc**
-- Edit the following ** PS1='...\[\033[01;31m\]\u\[\033[01;32m\]@\h...**
+- Edit the following **PS1='...\[\033[01;31m\]\u\[\033[01;32m\]@\h...'**
 
 # Upgrade packages
 ```sh
