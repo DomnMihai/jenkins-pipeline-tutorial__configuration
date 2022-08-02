@@ -26,3 +26,11 @@ npm --version
 sudo npm install --location=global npm
 npm --version
 ```
+
+# Install zip
+```sh
+sudo apt install zip unzip
+
+zip
+unzip
+```
