@@ -30,3 +30,5 @@ groups
 
 # Jenkins plugins
 - Rebuilder
+- AnsiColor
+- Pipeline Utility Steps
