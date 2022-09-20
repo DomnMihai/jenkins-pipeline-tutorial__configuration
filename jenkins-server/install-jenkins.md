@@ -28,6 +28,10 @@ sudo reboot
 groups
 ```
 
+# Global config
+- Timestamper **Enabled for all Pipeline builds**
+- ANSI Color **xterm**
+
 # Jenkins plugins
 - Rebuilder
 - AnsiColor
