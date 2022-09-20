@@ -13,5 +13,20 @@ sudo apt-get install fontconfig
 sudo apt-get install jenkins
 ```
 
+# Add the user to the jenkins group
+```sh
+cd /var/lib/jenkins/
+ls -l --almost-all
+
+whoami
+groups
+
+sudo usermod --append --groups jenkins mihai
+cat /etc/group
+
+sudo reboot
+groups
+```
+
 # Jenkins plugins
 - Rebuilder
