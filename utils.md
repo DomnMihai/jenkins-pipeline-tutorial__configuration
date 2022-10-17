@@ -6,3 +6,8 @@
 ssh 192.168.0.50
 ssh mihai@192.168.0.50
 ```
+
+# Systemctl service
+```sh
+systemctl status jenkins.service
+```
