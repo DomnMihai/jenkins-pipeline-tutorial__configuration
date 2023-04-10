@@ -17,7 +17,8 @@ sudo mv jenkins-pipeline-tutorial__nodejs-backend nodejs-backend
 
 # Change folders' owner
 ```shell
-
+cd /home/nodejs-server/
+sudo chown --recursive nodejs-server:nodejs-server backend-application
 ```
 
 # Run the server
