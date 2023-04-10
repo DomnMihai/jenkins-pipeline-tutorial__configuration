@@ -11,7 +11,8 @@ sudo mkdir backups
 
 # Clone nodejs-backend from GitHub
 ```shell
-
+sudo git clone https://github.com/DomnMihai/jenkins-pipeline-tutorial__nodejs-backend.git
+sudo mv jenkins-pipeline-tutorial__nodejs-backend nodejs-backend
 ```
 
 # Change folders' owner
