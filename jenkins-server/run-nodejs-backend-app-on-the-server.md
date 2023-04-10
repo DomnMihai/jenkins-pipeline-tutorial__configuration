@@ -23,5 +23,7 @@ sudo chown --recursive nodejs-server:nodejs-server backend-application
 
 # Run the server
 ```shell
-
+sudo npm install --omit=dev
+cat package.json
+npm run start
 ```
