@@ -1,0 +1,11 @@
+[Unit]
+Description=Run nodejs backend application server in the background
+
+[Service]
+WorkingDirectory=/home/nodejs-server/backend-application/nodejs-backend
+ExecStart=npm run start
+Restart=always
+User=nodejs-server
+
+[Install]
+WantedBy=multi-user.target
