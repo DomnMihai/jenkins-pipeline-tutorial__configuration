@@ -7,3 +7,8 @@ sudo touch nodejs-backend-app.service
 
 
 # Start backend-app systemd service
+```shell
+sudo systemctl start nodejs-backend-app.service
+systemctl status nodejs-backend-app.service
+sudo systemctl stop nodejs-backend-app.service
+```
