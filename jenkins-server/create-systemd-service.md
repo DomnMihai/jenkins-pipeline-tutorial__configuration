@@ -11,4 +11,6 @@ sudo touch nodejs-backend-app.service
 sudo systemctl start nodejs-backend-app.service
 systemctl status nodejs-backend-app.service
 sudo systemctl stop nodejs-backend-app.service
+
+sudo systemctl enable nodejs-backend-app.service
 ```
